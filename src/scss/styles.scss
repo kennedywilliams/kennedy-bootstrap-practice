@@ -1,3 +1,6 @@
+// Import Bootstrap styles
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
 // Custom variable overrides go here
 // For options, see node_modules/bootstrap/scss/_variables.scss
 // examples:
@@ -5,8 +8,45 @@
 // $body-color: white;
 // $link-hover-color: grey;
 // $font-family-sans-serif: "Helvetica Neue";
-
-// Import Bootstrap styles
-@import "../../node_modules/bootstrap/scss/bootstrap";
-
 // Import partials here
+
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.jumbotron  {
+  background-image: url(../img/pirate-ship.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+
+  p {
+    color: #ffffff
+  }
+}
+.byline {
+  font-weight: bold
+}
+
+h1{
+    font-family: 'Shadows Into Light', cursive;
+  
+}
+
+.col-sm-8 {
+  p { 
+    font-family: 'Indie Flower', cursive;
+    border-left: 4px grey solid;
+    padding-left: 10px;
+  }
+}
+
+footer {
+  text-align: center;
+  color: white;
+  background-color: #333333;
+  padding-top: 3px;
+  padding-bottom: 3px
+}
+
