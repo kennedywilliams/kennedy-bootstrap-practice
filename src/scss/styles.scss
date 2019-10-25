@@ -10,7 +10,6 @@
 // $font-family-sans-serif: "Helvetica Neue";
 // Import partials here
 
-
 .nav-link:hover {
   text-decoration: underline;
 }
@@ -40,6 +39,12 @@ h1{
     border-left: 4px grey solid;
     padding-left: 10px;
   }
+}
+
+//My extra Bootsrap element is the card below.;
+
+.card {
+background-color: rgb(170, 221, 188);
 }
 
 footer {
