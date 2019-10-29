@@ -34,9 +34,10 @@ h1{
 }
 
 .col-sm-8 {
+  border-left: 2px grey solid;
   p { 
     font-family: 'Indie Flower', cursive;
-    border-left: 4px grey solid;
+    
     padding-left: 10px;
   }
 }
@@ -45,6 +46,7 @@ h1{
 
 .card {
 background-color: rgb(170, 221, 188);
+margin-top: 15px;
 }
 
 footer {
@@ -52,6 +54,6 @@ footer {
   color: white;
   background-color: #333333;
   padding-top: 3px;
-  padding-bottom: 3px
+
 }
 
